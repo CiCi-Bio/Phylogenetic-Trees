@@ -1,0 +1,1 @@
+-n result -s infile.txt -c 25 -p 12345 -m PROTCATDAYHOFF -f a -N 100 -x 12345 --asc-corr lewis 
