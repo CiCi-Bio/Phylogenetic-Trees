@@ -1,4 +1,4 @@
--n result -s infile.txt -c 25 -p 12345 -m PROTCATDAYHOFF -f a -N 100 -x 12345 --asc-corr lewis 
+For muscle: muscle -in infile.fasta -seqtype auto -maxiters 16 -maxmb 30000000 -log logfile.txt -weight1 clustalw -cluster1 upgmb -sueff 0.1 -root1 pseudo -maxtrees 1 -weight2 clustalw -cluster2 upgmb -sueff 0.1 -root2 pseudo -objscore sp -noanchors -fastaout output.fasta 
+For RAxML: -n result -s infile.txt -c 25 -p 12345 -m PROTCATDAYHOFF -f a -N 100 -x 12345 --asc-corr lewis 
 It is closely realated to P.lylie, D.viridis, C.sphinx and R.leschenaulti
-This is important as it shows the evolutionary variation of any phenotype and genetic changes that may have occured over time. Especially in light of covid, phylogenetic network
-has helped in understanding the evolution of covid in humans, tracking and predicting infection pathways as well as designing preventative strategies.
+This is important as it shows the evolutionary variation of any phenotype and genetic changes that may have occured over time. Especially in light of covid, phylogenetic network has helped in understanding the evolution of covid in humans, tracking and predicting infection pathways as well as designing preventative strategies.
